@@ -1,0 +1,49 @@
+body {
+  background-color: #000;
+  width: 100%;
+}
+
+/*This goes for all "container-fluid"*/
+
+.container-fluid {
+  padding: 0px;
+  margin: 0;
+  font-size: 0;
+}
+
+.allcontainers {
+  padding: 0px;
+  margin: 0;
+  font-size: 0;
+}
+
+#rocketcompany {
+  padding:0;
+  margin:0;
+  font-size: 0;
+  text-align: center;
+}
+
+#rocket img {
+  width: 33.3%;
+}
+
+#box1 img {
+  width:25%;
+}
+
+#develop1 img {
+  width: 100%;
+}
+
+#develop2 img {
+  width: 50%;
+}
+
+#box2 img {
+  width:50%;
+}
+
+#box3 img {
+  width:50%;
+}

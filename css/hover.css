@@ -1,0 +1,86 @@
+body {
+  background-color: #000;
+  width: 100%;
+}
+
+/*This goes for all "container-fluid"*/
+
+.container-fluid {
+  padding: 0px;
+  margin: 0;
+  font-size: 0;
+}
+
+.allcontainers {
+  padding: 0px;
+  margin: 0;
+  font-size: 0;
+}
+
+/*from here hover from 6 to 3*/
+
+.contenedor {
+  position: relative;
+  width: 33.3%;
+  float: left;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.contenedor:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*till here hover from 6 to 3*/
+
+#greyscale img {
+  width: 50%;
+  filter: grayscale(90%);
+  transition: .5s ease;
+}
+
+#greyscale img:hover {
+  filter: grayscale(10%);
+}
+
+
+/*Till here greyscalehover*/
+
+#zoomhover img {
+  width: 50%;
+  transition: .5s ease;
+  overflow: hidden;
+}
+
+
+#zoomhover img:hover {
+  transform:scale(1.2);
+}
